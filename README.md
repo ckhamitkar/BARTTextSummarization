@@ -1,0 +1,5 @@
+Transformer-based models are popular due to their ability to understand and manipulate natural languages. They manipulate languages by forming high-level linguistic and semantic representations. These representations have been created through unsupervised pre-training on a large text dataset by performing masked language modeling (MLM).
+
+In this project, we’ll use the BART model by Facebook to summarize news articles. In addition to the MLM task, BART is also trained on the next-sentence prediction (NSP) task, which it performs with an autoregressive decoder. We’ll load the model, fine-tune it on a summarization dataset, and finally evaluate it using the ROUGE score.
+
+We’ll use the Hugging Face Hub API for access to the models, the PyTorch library for implementing the deep learning logic, the Weights & Biases library to visualize training, and the Evaluate library to evaluate the model.
